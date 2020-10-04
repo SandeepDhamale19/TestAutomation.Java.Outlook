@@ -1,0 +1,79 @@
+<project xmlns="http://maven.apache.org/POM/4.0.0" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:schemaLocation="http://maven.apache.org/POM/4.0.0 https://maven.apache.org/xsd/maven-4.0.0.xsd">
+  <modelVersion>4.0.0</modelVersion>
+  <groupId>Test.Automation.Services</groupId>
+  <artifactId>TestAutomation.Outlook</artifactId>
+  <version>1.0.0.0-Basic</version>
+  <name>TestAutomation.Outlook</name>
+  
+  <dependencies>  
+   
+      <dependency>
+        <groupId>org.testng</groupId>
+        <artifactId>testng</artifactId>
+        <version>7.3.0</version>
+        <scope>test</scope>
+      </dependency>
+	  
+	  <dependency>
+	    <groupId>log4j</groupId>
+	    <artifactId>log4j</artifactId>
+	    <version>1.2.17</version>
+	  </dependency>
+	  
+	  <dependency>
+	    <groupId>org.slf4j</groupId>
+	    <artifactId>slf4j-api</artifactId>
+	    <version>2.0.0-alpha1</version>
+	 </dependency>
+	 
+	 <dependency>
+	    <groupId>org.apache.poi</groupId>
+	    <artifactId>poi</artifactId>
+	    <version>4.1.2</version>
+	 </dependency>
+	  
+	 <dependency>
+       <groupId>org.jetbrains</groupId>
+       <artifactId>annotations</artifactId>
+       <version>16.0.1</version>
+     </dependency>
+     
+     <dependency>
+	    <groupId>com.github.bbottema</groupId>
+	    <artifactId>rtf-to-html</artifactId>
+	    <version>1.0.1</version>
+	 </dependency>
+	 
+	 <dependency>
+	    <groupId>org.simplejavamail</groupId>
+	    <artifactId>simple-java-mail</artifactId>
+	    <version>6.4.3</version>
+	 </dependency>
+	
+	<dependency>
+	    <groupId>org.simplejavamail</groupId>
+	    <artifactId>outlook-message-parser</artifactId>
+	    <version>1.7.8</version>
+	</dependency>
+
+	<dependency>
+	    <groupId>com.aspose</groupId>
+	    <artifactId>aspose-email</artifactId>
+	    <version>20.7</version>
+	    <type>pom</type>
+	</dependency>
+		
+  </dependencies>
+  
+  <repositories>
+		<repository>
+			<id>aspose-maven-repository</id>
+			<url>http://repository.aspose.com/repo/</url>
+		</repository>
+		<repository>
+			<id>com.springsource.repository.bundles.external</id>
+			<name>SpringSource Enterprise Bundle Repository - External Bundle Releases</name>
+			<url>http://repository.springsource.com/maven/bundles/external</url>
+		</repository>
+	</repositories>
+</project>
